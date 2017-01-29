@@ -2,21 +2,23 @@
   "name": "hanpen",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "flow && browserify src/hanpen.js --debug -t babelify -o ./hanpen.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hdemon/hanpen.git"
   },
   "author": "",
-  "license": "Mit",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/hdemon/hanpen/issues"
   },
   "homepage": "https://github.com/hdemon/hanpen#readme",
   "devDependencies": {
-    "flow": "^0.2.3"
+    "flow-bin": "^0.38.0"
+  },
+  "dependencies": {
+    "pegjs": "^0.10.0"
   }
 }
