@@ -1,5 +1,5 @@
 {
-  "name": "javascript-on-javascript",
+  "name": "hanpen",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hdemon/javascript-on-javascript.git"
+    "url": "git+https://github.com/hdemon/hanpen.git"
   },
   "author": "",
   "license": "Mit",
   "bugs": {
-    "url": "https://github.com/hdemon/javascript-on-javascript/issues"
+    "url": "https://github.com/hdemon/hanpen/issues"
   },
-  "homepage": "https://github.com/hdemon/javascript-on-javascript#readme",
+  "homepage": "https://github.com/hdemon/hanpen#readme",
   "devDependencies": {
     "flow": "^0.2.3"
   }
